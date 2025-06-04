@@ -1,0 +1,51 @@
+{
+  "0710.4669v1": {
+    "title": "SOC Testing Methodology and Practice",
+    "authors": [
+      "Cheng-Wen Wu"
+    ],
+    "summary": "On a commercial digital still camera (DSC) controller chip we practice a\nnovel SOC test integration platform, solving real problems in test scheduling,\ntest IO reduction, timing of functional test, scan IO sharing, embedded memory\nbuilt-in self-test (BIST), etc. The chip has been fabricated and tested\nsuccessfully by our approach. Test results justify that short test integration\ncost, short test time, and small area overhead can be achieved. To support SOC\ntesting, a memory BIST compiler and an SOC testing integration system have been\ndeveloped.",
+    "pdf_url": "http://arxiv.org/pdf/0710.4669v1",
+    "published": "2007-10-25"
+  },
+  "2204.10899v1": {
+    "title": "Comparative Study of Machine Learning Test Case Prioritization for Continuous Integration Testing",
+    "authors": [
+      "Dusica Marijan"
+    ],
+    "summary": "There is a growing body of research indicating the potential of machine\nlearning to tackle complex software testing challenges. One such challenge\npertains to continuous integration testing, which is highly time-constrained,\nand generates a large amount of data coming from iterative code commits and\ntest runs. In such a setting, we can use plentiful test data for training\nmachine learning predictors to identify test cases able to speed up the\ndetection of regression bugs introduced during code integration. However,\ndifferent machine learning models can have different fault prediction\nperformance depending on the context and the parameters of continuous\nintegration testing, for example variable time budget available for continuous\nintegration cycles, or the size of test execution history used for learning to\nprioritize failing test cases. Existing studies on test case prioritization\nrarely study both of these factors, which are essential for the continuous\nintegration practice. In this study we perform a comprehensive comparison of\nthe fault prediction performance of machine learning approaches that have shown\nthe best performance on test case prioritization tasks in the literature. We\nevaluate the accuracy of the classifiers in predicting fault-detecting tests\nfor different values of the continuous integration time budget and with\ndifferent length of test history used for training the classifiers. In\nevaluation, we use real-world industrial datasets from a continuous integration\npractice. The results show that different machine learning models have\ndifferent performance for different size of test history used for model\ntraining and for different time budget available for test case execution. Our\nresults imply that machine learning approaches for test prioritization in\ncontinuous integration testing should be carefully configured to achieve\noptimal performance.",
+    "pdf_url": "http://arxiv.org/pdf/2204.10899v1",
+    "published": "2022-04-22"
+  },
+  "2110.07443v1": {
+    "title": "DeepOrder: Deep Learning for Test Case Prioritization in Continuous Integration Testing",
+    "authors": [
+      "Aizaz Sharif",
+      "Dusica Marijan",
+      "Marius Liaaen"
+    ],
+    "summary": "Continuous integration testing is an important step in the modern software\nengineering life cycle. Test prioritization is a method that can improve the\nefficiency of continuous integration testing by selecting test cases that can\ndetect faults in the early stage of each cycle. As continuous integration\ntesting produces voluminous test execution data, test history is a commonly\nused artifact in test prioritization. However, existing test prioritization\ntechniques for continuous integration either cannot handle large test history\nor are optimized for using a limited number of historical test cycles. We show\nthat such a limitation can decrease fault detection effectiveness of\nprioritized test suites.\n  This work introduces DeepOrder, a deep learning-based model that works on the\nbasis of regression machine learning. DeepOrder ranks test cases based on the\nhistorical record of test executions from any number of previous test cycles.\nDeepOrder learns failed test cases based on multiple factors including the\nduration and execution status of test cases. We experimentally show that deep\nneural networks, as a simple regression model, can be efficiently used for test\ncase prioritization in continuous integration testing. DeepOrder is evaluated\nwith respect to time-effectiveness and fault detection effectiveness in\ncomparison with an industry practice and the state of the art approaches. The\nresults show that DeepOrder outperforms the industry practice and\nstate-of-the-art test prioritization approaches in terms of these two metrics.",
+    "pdf_url": "http://arxiv.org/pdf/2110.07443v1",
+    "published": "2021-10-14"
+  },
+  "2401.17740v1": {
+    "title": "Gamifying a Software Testing Course with Continuous Integration",
+    "authors": [
+      "Philipp Straubinger",
+      "Gordon Fraser"
+    ],
+    "summary": "Testing plays a crucial role in software development, and it is essential for\nsoftware engineering students to receive proper testing education. However,\nmotivating students to write tests and use automated testing during software\ndevelopment can be challenging. To address this issue and enhance student\nengagement in testing when they write code, we propose to incentivize students\nto test more by gamifying continuous integration. For this we use Gamekins, a\ntool that is seamlessly integrated into the Jenkins continuous integration\nplatform and uses game elements based on commits to the source code repository:\nDevelopers can earn points by completing test challenges and quests generated\nby Gamekins, compete with other developers or teams on a leaderboard, and\nreceive achievements for their test-related accomplishments. In this paper, we\npresent our integration of Gamekins into an undergraduate-level course on\nsoftware testing. We observe a correlation between how students test their code\nand their use of Gamekins, as well as a significant improvement in the accuracy\nof their results compared to a previous iteration of the course without\ngamification. As a further indicator of how this approach improves testing\nbehavior, the students reported enjoyment in writing tests with Gamekins.",
+    "pdf_url": "http://arxiv.org/pdf/2401.17740v1",
+    "published": "2024-01-31"
+  },
+  "solv-int/9903012v1": {
+    "title": "On integrability test for ultradiscrete equations",
+    "authors": [
+      "Daisuke Takahashi",
+      "Kenji Kajiwara"
+    ],
+    "summary": "We consider an integrability test for ultradiscrete equations based on the\nsingularity confinement analysis for discrete equations. We show how\nsingularity pattern of the test is transformed into that of ultradiscrete\nequation. The ultradiscrete solution pattern can be interpreted as a perturbed\nsolution. We can also check an integrability of a given equation by a\nperturbation growth of a solution, namely Lyapunov exponent. Therefore,\nsingularity confinement test and Lyapunov exponent are related each other in\nultradiscrete equations and we propose an integrability test from this point of\nview.",
+    "pdf_url": "http://arxiv.org/pdf/solv-int/9903012v1",
+    "published": "1999-03-15"
+  }
+}
